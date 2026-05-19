@@ -5,7 +5,7 @@ $ProgressPreference = "SilentlyContinue"
 [console]::OutputEncoding = [System.Text.Encoding]::UTF8
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-Write-Host "Checking for updates (Sky)..." -ForegroundColor Cyan
+Write-Host "Checking for updates (Socute_Animal)..." -ForegroundColor Cyan
 
 $apiUrl = "https://api.github.com/repos/GRILLYje/Animal_Socute_Public/releases/latest"
 
